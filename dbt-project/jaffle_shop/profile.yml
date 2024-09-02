@@ -4,8 +4,8 @@ jaffle_shop:
     dev:
       type: postgres
       host: localhost
-      user: darviddree
-      password: komputer4
+      user: test
+      password: test
       port: 5432
       dbname: dbt-project
       schema: jaffleshop
