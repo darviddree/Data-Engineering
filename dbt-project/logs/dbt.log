@@ -1,0 +1,29 @@
+[0m22:27:37.393174 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd691316be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd6910c1a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd691115490>]}
+
+
+============================== 22:27:37.398136 | b538f59b-0234-481d-8ea4-be1a38f9a80a ==============================
+[0m22:27:37.398136 [info ] [MainThread]: Running with dbt=1.7.10
+[0m22:27:37.398670 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/darviddree/.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m22:29:35.267283 [debug] [MainThread]: Starter project path: /Users/darviddree/ANACONDA/anaconda3/lib/python3.9/site-packages/dbt/include/starter_project
+[0m22:29:35.311215 [info ] [MainThread]: 
+Your new dbt project "jaffle_shop" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:29:35.312102 [info ] [MainThread]: Setting up your profile.
+[0m22:46:21.431050 [info ] [MainThread]: Profile jaffle_shop written to /Users/darviddree/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:46:21.531319 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 1124.2086, "process_user_time": 1.503595, "process_kernel_time": 0.498223, "process_mem_max_rss": "87134208", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m22:46:21.540700 [debug] [MainThread]: Command `dbt init` succeeded at 22:46:21.538195 after 1124.23 seconds
+[0m22:46:21.541851 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd691316be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd691115be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd6910c1a00>]}
+[0m22:46:21.544295 [debug] [MainThread]: Flushing usage events
